@@ -1,0 +1,31 @@
+.work-exp{
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    width: 600px;
+}
+
+.work-exp > p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    display: inline-block;
+}
+.work-exp > button{
+    margin: 10px 20px;
+    border: none;
+    background-color:blueviolet;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    outline: none;
+    cursor: pointer;
+}
+.work-exp > button:active{
+    color: blueviolet;
+    background: #fff;
+}

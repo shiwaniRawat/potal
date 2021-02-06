@@ -1,0 +1,58 @@
+.personal-info{
+    margin-left:auto;
+    margin-right:auto;
+    /* display: inline-block; */
+    background: #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    /* height: 400px; */
+    width: 600px;
+
+}
+.personal-info p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.personal-info input {
+    /* outline: none; */
+    border: none;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    justify-content: space-around;
+}
+.des{
+    padding:0px 20px;
+    /* background-color: blueviolet; */
+}
+.des textarea{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    /* outline: none; */
+    border: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn >button{
+    border: none;
+    background-color:blueviolet;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    outline: none;
+}
+.btn >button:active{
+    color: blueviolet;
+    background-color: white;
+}
+
+
